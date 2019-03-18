@@ -129,10 +129,3 @@ class LoginForm(Form):
                                                 message='4자리 이상 50자리 이하로 입력하세요.')])
 
     next_url = HiddenField('Next URL')
-
-
-
-
-
-
-
