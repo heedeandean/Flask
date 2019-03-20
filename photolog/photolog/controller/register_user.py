@@ -104,6 +104,7 @@ def __get_user(username):
         Log.error(str(e))
         raise e
 
+# 회원 탈퇴.
 @photolog.route('/user/unregist')
 @login_required
 def unregist():

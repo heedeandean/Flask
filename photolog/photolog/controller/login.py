@@ -71,6 +71,8 @@ def login():
     login_error = None
 
     if form.validate():
+
+        # 서버 세션 생성.
         session.permanent = True
 
         username = form.username.data
