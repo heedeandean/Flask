@@ -47,10 +47,11 @@
                         {{ render_field(form.comment, class="col-md-12 input-md form-control", placeholder="Comment", rows="5") }}
                     </div>
 
+                    <!-- 숨겨진 속성 값 -->
                     <div>
-                        {{ render_field(form.lat) }}
-                        {{ render_field(form.lng) }}
-                        {{ render_field(form.taken_date) }}
+                        {{ render_field(form.lat) }} <!-- 위도 -->
+                        {{ render_field(form.lng) }} <!-- 경도 -->
+                        {{ render_field(form.taken_date) }} <!-- 사진 찍은 시간 -->
                     </div>
                 </form>
             </div>
